@@ -37,10 +37,15 @@
 #
 # Winner: Candidate B — strongest alien voice and freshest food compliment; its only weakness
 # is wordiness (criterion 4), which the revisions below fix.
+#
+# Revision 1: tightened the draft — "gravity here files no complaints department" (clunky,
+# bureaucratic) became "gravity accepts no complaints" (deadpan, shorter); em-dash opener
+# became a colon so it reads as a review header; dropped filler "here". Same bafflement,
+# fewer words, better criterion 4.
 
 import os
 
-ENTRY = "One star \u2014 gravity here files no complaints department, the natives applaud by slapping their own limbs, yet their salted fried starch sticks are the finest cuisine in this spiral arm."
+ENTRY = "One star: gravity accepts no complaints and the natives applaud by slapping their own limbs, yet their salted fried starch sticks are the finest cuisine in this spiral arm."
 
 
 def main() -> None:
